@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+  <script src="MorphSVGPlugin.js"></script>
+</head>
+
+<body>
+  <article>
+    <h1>SVG Shape Transitions</h1>
+    <button onclick="menuClick()">
+      <svg id="hatchet" width="353" height="809" viewBox="0 0 353 809" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path id="handle"
+          d="M215 709C240.5 626.5 232.514 512.464 231.5 424.5C255.308 426.088 269.424 425.529 297 420L307.5 479C312.2 516.226 314.146 540.538 315 597C313.233 625.643 311.465 643.226 302.5 686C305.232 718.932 302.452 749.705 297 806C247.517 811.356 220.677 811.259 182 779.5C190.7 753.313 197.898 737.892 215 709Z"
+          fill="#443A39" />
+        <path id="stem"
+          d="M231.5 424.5C238.5 383.5 237.5 189 227.5 176.5C272.229 158.325 290.363 155.158 298 174.5C277.417 252.446 275 348 297 420C270.47 426.105 256.2 426.764 231.5 424.5Z"
+          fill="#7D7875" />
+        <path id="blade"
+          d="M90.9999 267C19.9999 276.5 -42 36 38.4999 3.05176e-05C114.5 2.50004 38.4999 64 350 34L352.5 170.5C330.837 168.52 320.239 171.955 302.5 181.5C271.054 114.413 133.877 258.99 90.9999 267Z"
+          fill="#56524F" />
+      </svg>
+      <svg id="hamburger" class="hidden" width="416" height="417" viewBox="0 0 416 417" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path id="menu-1"
+          d="M416 368C416 395.062 394.062 417 367 417H49C21.938 417 0 395.062 0 368V366C0 338.938 21.938 317 49 317H367C394.062 317 416 338.938 416 366V368Z"
+          fill="#D9D9D9" />
+        <path id="menu-2"
+          d="M416 212C416 239.062 394.062 261 367 261H48.9999C21.938 261 -9.15527e-05 239.062 -9.15527e-05 212V210C-9.15527e-05 182.938 21.938 161 48.9999 161H367C394.062 161 416 182.938 416 210V212Z"
+          fill="#D9D9D9" />
+        <path id="menu-3"
+          d="M416 51.5C416 78.562 394.062 100.5 367 100.5H48.9999C21.938 100.5 -9.15527e-05 78.562 -9.15527e-05 51.5V49.5C-9.15527e-05 22.438 21.938 0.5 48.9999 0.5H367C394.062 0.5 416 22.438 416 49.5V51.5Z"
+          fill="#D9D9D9" />
+      </svg>
+    </button>
+  </article>
+  <script src="MorphSVGPlugin.js"></script>
+  <script src="script.js"></script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
+</html>

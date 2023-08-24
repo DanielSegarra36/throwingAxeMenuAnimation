@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: black;
+  overflow: hidden;
+}
+
+body {
+  color: white;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+h1 {
+  margin: revert;
+}
+
+article,
+svg {
+  width: 100%;
+}
+
+svg {
+  height: 200px;
+  transform: rotate(0deg) scaleX(-1);
+}
+
+button {
+  background-color: black;
+  border: none;
+  width: 150px;
+}
+
+.hidden {
+  display: none;
+}
